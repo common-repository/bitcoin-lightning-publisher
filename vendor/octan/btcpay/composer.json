@@ -1,0 +1,29 @@
+{
+  "name": "octan/btcpay",
+  "description": "A client for the BTCPay API",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bumi",
+      "email": "hello@michaelbumann.com"
+    },
+    {
+      "name": "Musayann",
+      "email": "yannick@octan.group"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BTCPay\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}

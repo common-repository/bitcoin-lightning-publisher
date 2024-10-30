@@ -1,0 +1,26 @@
+{
+  "name": "octan/lnbits",
+  "description": "A client for the LNbits API",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bumi",
+      "email": "hello@michaelbumann.com"
+    },
+    {
+      "name": "Promesse",
+      "email": "promesse@octan.group"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LNbits\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

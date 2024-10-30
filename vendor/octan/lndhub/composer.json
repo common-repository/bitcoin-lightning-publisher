@@ -1,0 +1,29 @@
+{
+  "name": "octan/lndhub",
+  "description": "A client for the LNDHub API",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bumi",
+      "email": "hello@michaelbumann.com"
+    },
+    {
+      "name": "Musayann",
+      "email": "yannick@octan.group"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LNDHub\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
